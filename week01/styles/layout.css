@@ -1,0 +1,54 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* Layout Styling */
+header {
+    background-color: #f8f8f8;
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.content {
+    background-color: #eaeaea;
+    padding: 1rem;
+}
+
+aside {
+    background-color: #dcdcdc;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 1rem;
+}
