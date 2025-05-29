@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filtered Temples</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Merriweather&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+    </header>
+
+    <button id="menuButton">☰</button>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#" onclick="filterTemples('home')">Home</a></li>
+            <li><a href="#" onclick="filterTemples('old')">Old</a></li>
+            <li><a href="#" onclick="filterTemples('new')">New</a></li>
+            <li><a href="#" onclick="filterTemples('large')">Large</a></li>
+            <li><a href="#" onclick="filterTemples('small')">Small</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="container" id="templeContainer">
+            <h1>Images of Temples</h1>
+            <!-- Temple cards will be dynamically added here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Lebohang Sebata, Zimbabwe</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/filtered-temples.js"></script>
+</body>
+
+</html>
