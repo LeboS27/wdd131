@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zimbabwe</title>
+    <link rel="stylesheet" href="styles/place.css" />
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Zimbabwe</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/falls.webp" media="(min-width: 600px)">
+                <img src="images/falls.webp" alt="Victoria Falls, Zimbabwe">
+            </picture>
+        </section>
+
+        <section class="info">
+            <h2>Discover Zimbabwe</h2>
+            <p>Zimbabwe is a beautiful country in Southern Africa known for its stunning landscapes, wildlife, and the
+                world-famous Victoria Falls.</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <p>Temperature: <span id="temp">22</span>°C</p>
+            <p>Wind Speed: <span id="speed">6</span> km/h</p>
+            <p>Wind Chill: <span id="chill">Calculating...</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
