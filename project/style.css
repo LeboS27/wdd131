@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 1rem;
+}
+
+h1,
+h2 {
+    color: #dc2626;
+    /* Red - brand color */
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.color-box {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+.red {
+    background-color: #dc2626;
+}
+
+.gray {
+    background-color: #f3f4f6;
+}
