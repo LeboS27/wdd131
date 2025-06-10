@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FC25 | Student Projects</title>
+    <link rel="stylesheet" href="styles/project.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>FC25</h1>
+            <p>The Future Coders Class of 2025</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html" class="active">Projects</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <h2>Student Projects</h2>
+        <div class="filter-controls">
+            <label for="skillFilter">Filter by Skill Level:</label>
+            <select id="skillFilter">
+                <option value="all">All Levels</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+
+        <div class="projects-grid" id="projectsContainer">
+            <!-- Projects will be loaded dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LEBOHANG SEBATA | Future Coders 2025</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/project.js"></script>
+</body>
+
+</html>

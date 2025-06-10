@@ -4,65 +4,58 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FC25 Site Plan</title>
+    <meta name="description" content="FC25: The Future Coders Class of 2025 - A student-led coding community">
+    <title>FC25 | Future Coders 2025</title>
     <link rel="stylesheet" href="styles/project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&family=Courier+New&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <h1>FC25</h1>
+            <p>The Future Coders Class of 2025</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="project.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
 
-    <h1>FC25 Site Plan</h1>
+    <main>
+        <section class="hero">
+            <h2>Welcome to FC25</h2>
+            <p>A community of aspiring developers from the class of 2025</p>
+            <a href="join.html" class="cta-button">Join Us</a>
+        </section>
 
-    <div class="section">
-        <h2>Site Name</h2>
-        <p><strong>FC25: The Future Coders Class of 2025</strong></p>
-        <p>This name represents a student-led coding community for the 2025 graduating class, sharing tips, projects,
-            and inspiration for future developers.</p>
-        <p>Optional domain: <em>fc25.dev</em></p>
-    </div>
+        <section class="features">
+            <div class="feature-card">
+                <h3>Learn Together</h3>
+                <p>Access shared resources and collaborative learning materials.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Showcase Projects</h3>
+                <p>Display your work and get feedback from peers.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Build Connections</h3>
+                <p>Network with future developers and industry professionals.</p>
+            </div>
+        </section>
+    </main>
 
-    <div class="section">
-        <h2>Site Purpose</h2>
-        <p>The FC25 site is a hub for aspiring web developers in the class of 2025. It provides learning resources,
-            student project showcases, tips, and a form to join the community.</p>
-    </div>
-
-    <div class="section">
-        <h2>Scenarios</h2>
-        <ul>
-            <li>How can I join the FC25 developer community?</li>
-            <li>Where can I find JavaScript projects made by other students?</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Color Schema</h2>
-        <p>Chosen colors and usage:</p>
-        <ul>
-            <li>
-                <div class="color-box red"></div> Red (#dc2626) – Used for headings, buttons, and accents.
-            </li>
-            <li>
-                <div class="color-box gray"></div> Light Gray (#f3f4f6) – Used for backgrounds and sections.
-            </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Typography</h2>
-        <ul>
-            <li><strong>Segoe UI</strong> – Used for body text and headings.</li>
-            <li><strong>Courier New</strong> – Used in code blocks or project snippets.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Wireframe</h2>
-        <p><strong>Mobile View</strong></p>
-        <img src="images/mobile-wireframe.jpg" alt="Mobile Wireframe" width="300">
-
-        <p><strong>Desktop View</strong></p>
-        <img src="images/desktop-wireframe.jpeg" alt="Desktop Wireframe" width="500">
-    </div>
+    <footer>
+        <p>&copy; 2025 lEBOHANG SEBATA | Future Coders 2025</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
 
     <script src="scripts/project.js"></script>
 </body>
